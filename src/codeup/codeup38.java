@@ -5,8 +5,8 @@ public class codeup38 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
-		long input1 = sc.nextLong();
-		long input2 = sc.nextLong();
+		int input1 = sc.nextInt();
+		int input2 = sc.nextInt();
 		
 		System.out.println(input1 + input2);
 		sc.close();
