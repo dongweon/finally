@@ -11,6 +11,8 @@ public class codeup54 {
 		int b = Integer.parseInt(arr[1]);
 		
 		System.out.println(a==1 && b==1 ? 1:0);
+		// and : &&
+		// or : ||
 		sc.close();
 
 	}
