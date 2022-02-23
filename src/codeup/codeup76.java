@@ -9,7 +9,7 @@ public class codeup76 {
 		char input = sc.next().charAt(0);
 		
 		for(int i=a; i<=(int)input; i++) {
-			System.out.println((char)i);
+			System.out.print((char)i + " ");
 		}
 		sc.close();
 
