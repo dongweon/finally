@@ -12,9 +12,8 @@ public class codeup87 {
 			sum += i;
 			if (sum >= input) {
 				System.out.println(sum);
+			break;
 			}
-				break;
-			
 		}
 		sc.close();
 
