@@ -41,7 +41,6 @@ public class baek_15552 {
 //		public class baek_15552 {
 //
 //			public static void main(String[] args) throws IOException {
-//				// BufferedWriter »ç¿ë
 //				
 //				BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 //				
