@@ -1,4 +1,4 @@
-package baek;
+package if_for_while;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

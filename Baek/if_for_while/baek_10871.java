@@ -1,4 +1,4 @@
-package baek;
+package if_for_while;
 import java.util.Scanner;
 public class baek_10871 {
 

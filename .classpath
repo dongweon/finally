@@ -6,5 +6,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="Baek"/>
+	<classpathentry kind="src" path="CodeUp"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
