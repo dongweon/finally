@@ -20,7 +20,8 @@ public class baek_2292 {
 			}
 			System.out.print(count);
 		}
-
+		
+		sc.close();
 	}
 
 }
