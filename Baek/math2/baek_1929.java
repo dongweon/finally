@@ -3,44 +3,32 @@ package math2;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
+import java.util.StringTokenizer;
 
-public class baek_2581 {
-
-	// 에라토스테네스의 체 사용 !!
-	public static boolean prime[];
+public class baek_1929 {
 	
+	public static boolean prime[];
+
 	public static void main(String[] args) throws IOException {
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
 		
-		int a = Integer.parseInt(br.readLine());
-		int b = Integer.parseInt(br.readLine());
+		int a = Integer.parseInt(st.nextToken());
+		int b = Integer.parseInt(st.nextToken());
 		
-		prime = new boolean[b + 1];	// 0 ~ b
-		get_prime();				// 함수 생성
+		prime = new boolean[b + 1];
+		get_prime();
 		
-		int sum = 0;
-		int min = Integer.MAX_VALUE;
+		StringBuilder sb = new StringBuilder();
 		
 		for(int i = a; i <= b; i++) {
-			if(prime[i] == false) {		// false : 소수
-				sum += i;
-				if(min == Integer.MAX_VALUE) {
-					min = i;
-				}
-				
-				
-			}
+			if(!prime[i])
+				sb.append(i).append('\n');
 		}
 		
-		if(sum == 0) {
-			System.out.println(-1);
-		}
-		else {
-			System.out.println(sum);
-			System.out.println(min);
-		}
-
+		System.out.println(sb);
+	
 	}
 	
 	
@@ -55,6 +43,7 @@ public class baek_2581 {
 				prime[j] = true;
 			}
 		}
+		
 	}
 
 }
