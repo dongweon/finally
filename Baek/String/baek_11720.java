@@ -1,4 +1,4 @@
-package String;
+package string;
 import java.util.Scanner;
 public class baek_11720 {
 	public static void main(String[] args) {
