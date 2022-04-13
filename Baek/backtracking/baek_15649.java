@@ -1,4 +1,4 @@
-// 참고 https://st-lab.tistory.com/114?category=862595
+// 모든 문제 참고 https://st-lab.tistory.com
 
 package backtracking;
 
